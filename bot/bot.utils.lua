@@ -1,4 +1,5 @@
-function serialize_to_file(data, file, uglify)
+fun
+ction serialize_to_file(data, file, uglify)
   file = io.open(file, 'w+')
   local serialized
   if not uglify then
